@@ -1,9 +1,8 @@
-var RecordRepository = require('../datalayer/repositories/RecordRepository')
-
+const RecordRepository = require('../datalayer/repositories/RecordRepository')
+// const validator = require('validator')
 class RecordsController {
   async getListByFilter (filters) {
     let response
-
     try {
       const recordList = await RecordRepository.getListByFilter(filters)
 

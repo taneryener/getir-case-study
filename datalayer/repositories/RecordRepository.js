@@ -5,6 +5,7 @@ class RecordRepository {
     this.records = records
   }
 
+  // this method return records by filter from mongodb
   async getListByFilter (filters) {
     var response = await this.records.aggregate([
       {

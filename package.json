@@ -13,7 +13,8 @@
     "jest": "^24.9.0",
     "mongoose": "^5.7.1",
     "morgan": "~1.9.1",
-    "supertest": "^4.0.2"
+    "supertest": "^4.0.2",
+    "validator": "^11.1.0"
   },
   "db": {
     "connection": "mongodb://localhost",
