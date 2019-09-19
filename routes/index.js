@@ -10,8 +10,4 @@ router.post('/', async function (req, res) {
   } else { res.status(402).send(response) }
 })
 
-router.get('/', async function (req, res) {
-  res.send('ok')
-})
-
 module.exports = router
