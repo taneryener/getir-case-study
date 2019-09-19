@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 const RecordsController = require('../controllers/RecordsController')
 
-/* POST . */
+/* POST request handler for records */
 router.post('/', async function (req, res) {
   var response = await RecordsController.getListByFilter(req.body)
   if (response.code === 0) {
